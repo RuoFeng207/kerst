@@ -32,7 +32,7 @@ h1 {
     font-family: monospace; 
     white-space: pre; 
     color: #FFFFFF; 
-    font-size: 14px; 
+    font-size: 12px; 
     line-height: 1.2;
     text-align: center; 
     margin-left: 45%; 
@@ -44,5 +44,13 @@ h1 {
     background-color: #f0efea; /* Achtergrondkleur */
     position: absolute; /* Maak de positie absoluut */
     left: 500px; /* Horizontale positie vanaf de linkerkant */
-    top: 200px; /* Verticale positie vanaf de bovenkant */
+    top: 150px; /* Verticale positie vanaf de bovenkant */
+}
+.kaart{
+    
+    white-space: pre; 
+    line-height: 1.2;
+    margin-left:  10px; ;
+
+    color: #d7b668;
 }
