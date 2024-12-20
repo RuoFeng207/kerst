@@ -37,3 +37,12 @@ h1 {
     text-align: center; 
     margin-left: 45%; 
 }
+
+.rechthoek {
+    width: 250px; /* Breedte van de rechthoek */
+    height:500px; /* Hoogte van de rechthoek */
+    background-color: #f0efea; /* Achtergrondkleur */
+    position: absolute; /* Maak de positie absoluut */
+    left: 500px; /* Horizontale positie vanaf de linkerkant */
+    top: 200px; /* Verticale positie vanaf de bovenkant */
+}
