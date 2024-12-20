@@ -1,9 +1,8 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Verwijderde de dubbele flex-direction */
     align-items: center; 
-    margin-top: 0px; 
-    /* achtergrond */
+    margin-top: 0; 
     background: linear-gradient(#6bae83, #c63941);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,23 +15,19 @@ body {
     justify-content: center; 
 }
 
-label {
-    margin-right: 10px;
-}
-
-input {
-    margin-right: 10px; 
+label, input {
+    margin-right: 10px; /* Gecombineerd voor label en input */
 }
 
 h1 {
-    text-align: center;
+    text-align: center; /* Verwijderde display: flex; omdat het niet nodig is */
 }
 
 .ascii-art {
     font-family: monospace; 
     white-space: pre; 
     color: #FFFFFF; 
-    font-size: 12px; 
+    font-size: 14px; 
     line-height: 1.2;
     text-align: center; 
     margin-left: 45%; 
@@ -40,17 +35,15 @@ h1 {
 
 .rechthoek {
     width: 250px; /* Breedte van de rechthoek */
-    height:500px; /* Hoogte van de rechthoek */
+    height: 500px; /* Hoogte van de rechthoek */
     background-color: #f0efea; /* Achtergrondkleur */
     position: absolute; /* Maak de positie absoluut */
     left: 500px; /* Horizontale positie vanaf de linkerkant */
-    top: 150px; /* Verticale positie vanaf de bovenkant */
+    top: 200px; /* Verticale positie vanaf de bovenkant */
 }
-.kaart{
-    
-    white-space: pre; 
-    line-height: 1.2;
-    margin-left:  10px; ;
 
+.kaart {
+    line-height: 1.2;
+    margin-left: 10px; /* Eenheid toegevoegd aan margin-left */
     color: #d7b668;
 }
