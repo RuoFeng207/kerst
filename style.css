@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     align-items: center; 
     margin-top: 0px; 
-    /* achtergrond */
     background: linear-gradient(#6bae83, #c63941);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,6 +27,13 @@ h1 {
     text-align: center;
 }
 
+.container2 {
+    display: flex; /* Gebruik flexbox */
+    flex-direction: row; /* Plaats de elementen in een rij */
+    align-items: flex-start; /* Zorg ervoor dat ze aan de bovenkant uitgelijnd zijn */
+    justify-content: center; /* Centreer de inhoud horizontaal */
+}
+
 .ascii-art {
     font-family: monospace; 
     white-space: pre; 
@@ -35,15 +41,13 @@ h1 {
     font-size: 14px; 
     line-height: 1.2;
     text-align: center; 
-    margin-left: 45%; 
 }
 
-.rechthoek p  {
+.rechthoek {
     color: #d7b668;
-    width: 250px; /* Breedte van de rechthoek */
-    height:500px; /* Hoogte van de rechthoek */
-    background-color: #f0efea; /* Achtergrondkleur */
-    position: absolute; /* Maak de positie absoluut */
-    left: 500px; /* Horizontale positie vanaf de linkerkant */
-    top: 200px; /* Verticale positie vanaf de bovenkant */
+    width: 300px;
+    height: 500px;
+    padding: 10px; /* Ruimte binnen de rechthoek */
+    margin: 10px; /* Ruimte buiten de rechthoek */
+    background-color: #f0f0f0; /* Achtergrondkleur */
 }
