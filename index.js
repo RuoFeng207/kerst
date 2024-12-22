@@ -5,10 +5,11 @@ document.getElementById("bevestig").onclick=function(){
     gebruikers_naam = gebruikers_naam.charAt(0).toUpperCase() + gebruikers_naam.slice(1);
 
     if (gebruikers_naam=="89HJ"){
-        document.getElementById("welkom").textContent= "...facking Xmas Dion"
+        document.getElementById("welkom").textContent= "Merry Facking Xmas Dion"
         document.getElementById("bericht").innerHTML = `Hallo, Dion <br><br>IK wens jou een heel fijne kerst.<br>
         En een gelukkig nieuwjaar.<br><br>
-        Ik heb speciaal voor jou een appart bericht gemaakt :)<br>
+        zo als beloofd<br>
+        Merry Facking Xmas Dion is alleen maar bij jouw :)<br><br>
         tot volgend jaar!<br>
         Kerstige groet, <br><br>
         Ruo Feng `;
@@ -72,7 +73,7 @@ document.getElementById("bevestig").onclick=function(){
         document.getElementById("bericht").innerHTML =`Hallo papsie,<br><br>
         ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>
         We gaan het heel leuk hebben vandaag,<br><br>
-        Knufels<>
+        Knufels,<>
         
         Ruo Feng`;
     }
@@ -82,7 +83,7 @@ document.getElementById("bevestig").onclick=function(){
         document.getElementById("bericht").innerHTML =`Hey Mams,<br><br>
         ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>
         We gaan het heel leuk hebben vandaag,<br><br>
-        Knufels<br>
+        Knufels,<br>
         
         Ruo Feng`;
     }
@@ -93,10 +94,52 @@ document.getElementById("bevestig").onclick=function(){
         ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>br>
         Ik weet dat ik je al een kaartje gestuurd heb maar ik vond het ook leuk je deze online kaart te geven.<br>
         Ik wens je ouders ook een fijne kerst.<br><br>
-        Groetjes
+        Groetjes,
         
         Ruo Feng`;
     }
+
+    else if (gebruikers_naam=="TH57"){
+        document.getElementById("welkom").textContent=`Merry christmas, Lilly !!!`
+        document.getElementById("bericht").innerHTML =`Hey Lilly,<br><br>
+        ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>br>
+        Ik weet dat ik je al een kaartje gestuurd heb maar ik vond het ook leuk je deze online kaart te geven.<br>
+        Ik wens je moeder en broertjes ook een fijne kerst.<br><br>
+        Groetjes,
+        
+        Ruo Feng`;
+    }
+
+    else if (gebruikers_naam=="87EH"){
+        document.getElementById("welkom").textContent=`Merry christmas, Hamid !!!`
+        document.getElementById("bericht").innerHTML =`Hallo Hamid,<br><br>
+        ik wens je fijne feestdagen en een gelukkig nieuwjaar.<br>br>
+        Ik hoop dat het goed met je gaat.<br><br>
+        Ik vond het leuk om jou ook deze persoonlijkere kaart te sturen.<br>
+        Omdat jij m'n laatste buschafeur was op mijn oude school.<br>
+        Vriendelijke groeten,
+        
+        Ruo Feng`;
+    }
+
+    else if (gebruikers_naam=="P54K"){
+        document.getElementById("welkom").textContent=`Merry christmas, Menno !!!`
+        document.getElementById("bericht").innerHTML =`Hey Menno,<br><br>
+        ik wens je fijne kestdagen en een gelukkig nieuwjaar.<br><br>
+        Ik hoop dat het goed met je gaat.<br><br>
+        Ik dacht dat je het wel leuk zou vinden om een appart bericht te krijgen :)<br>
+        En voor als je het weten wilt, deze website is geschreven in html, css en js.<br><br>
+        Vriendelijke groet,<br><br>
+
+        Ruo Feng`;
+    }
+
+    else if (gebruikers_naam==""){
+        document.getElementById("welkom").textContent=`Merry christmas niemand !!!`
+        document.getElementById("bericht").innerHTML =`Hey niemand,<br><br> 
+        voer je naam in en druk op verstuur`
+    }
+    
 
     else{
         document.getElementById("welkom").textContent=`Merry christmas, ${gebruikers_naam}!!!`
