@@ -88,6 +88,15 @@ document.getElementById("bevestig").onclick=function(){
         Ruo Feng`;
     }
 
+    else if (gebruikers_naam=="02SA"){
+        document.getElementById("welkom").textContent=`Merry christmas, Ying Hua !!!`
+        document.getElementById("bericht").innerHTML =`Hey Ying Hua,<br><br>
+        ik wens je een fijne kerst en een gelukkig en sportief nieuwjaar.<br>
+        liefs je zusje ,<br><br>
+        
+        Ruo Feng`;
+    }
+
     else if (gebruikers_naam=="O74W"){
         document.getElementById("welkom").textContent=`Merry christmas, Timo !!!`
         document.getElementById("bericht").innerHTML =`Hey Timo,<br><br>
@@ -135,7 +144,7 @@ document.getElementById("bevestig").onclick=function(){
     }
 
     else if (gebruikers_naam==""){
-        document.getElementById("welkom").textContent=`Merry christmas niemand !!!`
+        document.getElementById("welkom").textContent=`niemand???`
         document.getElementById("bericht").innerHTML =`Hey niemand,<br><br> 
         voer je naam in en druk op verstuur`
     }
