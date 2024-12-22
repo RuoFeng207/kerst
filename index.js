@@ -72,7 +72,28 @@ document.getElementById("bevestig").onclick=function(){
         document.getElementById("bericht").innerHTML =`Hallo papsie,<br><br>
         ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>
         We gaan het heel leuk hebben vandaag,<br><br>
-        Knufels
+        Knufels<>
+        
+        Ruo Feng`;
+    }
+    
+    else if (gebruikers_naam=="DS96"){
+        document.getElementById("welkom").textContent=`Merry christmas, Mam !!!`
+        document.getElementById("bericht").innerHTML =`Hey Mams,<br><br>
+        ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>
+        We gaan het heel leuk hebben vandaag,<br><br>
+        Knufels<br>
+        
+        Ruo Feng`;
+    }
+
+    else if (gebruikers_naam=="O74W"){
+        document.getElementById("welkom").textContent=`Merry christmas, Timo !!!`
+        document.getElementById("bericht").innerHTML =`Hey Timo,<br><br>
+        ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>br>
+        Ik weet dat ik je al een kaartje gestuurd heb maar ik vond het ook leuk je deze online kaart te geven.<br>
+        Ik wens je ouders ook een fijne kerst.<br><br>
+        Groetjes
         
         Ruo Feng`;
     }
