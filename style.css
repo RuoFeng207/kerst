@@ -40,6 +40,8 @@ h1 {
     color: #FFFFFF; 
     font-size: 14px; 
     line-height: 1.2;
+    margin-right: 300px; /* Verhoog de linker marge om de boom verder naar rechts te verplaatsen */
+    margin-top: 30px; /* Houd de bovenmarge als je dat wilt */
     text-align: center; 
 }
 
@@ -49,5 +51,7 @@ h1 {
     height: 500px;
     padding: 10px; /* Ruimte binnen de rechthoek */
     margin: 10px; /* Ruimte buiten de rechthoek */
+    margin-left: 650px;
+    margin-top: 70px;
     background-color: #f0f0f0; /* Achtergrondkleur */
 }
