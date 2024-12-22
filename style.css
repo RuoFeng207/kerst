@@ -9,6 +9,15 @@ body {
     color: #FFFFFF;
 }
 
+#popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1000;
+}
+
 #warning {
     position: fixed;
     top: 0;
@@ -43,10 +52,10 @@ h1 {
 }
 
 .container2 {
-    display: flex; /* Gebruik flexbox */
-    flex-direction: row; /* Plaats de elementen in een rij */
-    align-items: flex-start; /* Zorg ervoor dat ze aan de bovenkant uitgelijnd zijn */
-    justify-content: center; /* Centreer de inhoud horizontaal */
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: center; 
 }
 
 .ascii-art {
@@ -55,8 +64,8 @@ h1 {
     color: #FFFFFF; 
     font-size: 14px; 
     line-height: 1.2;
-    margin-right: 300px; /* Verhoog de linker marge om de boom verder naar rechts te verplaatsen */
-    margin-top: 30px; /* Houd de bovenmarge als je dat wilt */
+    margin-right: 300px; 
+    margin-top: 30px; 
     text-align: center; 
 }
 
@@ -64,11 +73,11 @@ h1 {
     color: #d7b668;
     width: 300px;
     height: 500px;
-    padding: 10px; /* Ruimte binnen de rechthoek */
-    margin: 10px; /* Ruimte buiten de rechthoek */
+    padding: 10px; 
+    margin: 10px; 
     margin-left: 650px;
     margin-top: 70px;
-    background-color: #f0f0f0; /* Achtergrondkleur */
+    background-color: #f0f0f0; 
 }
 
 @media(max-width = 400){}

@@ -1,16 +1,15 @@
 function checkOrientation() {
     const warning = document.getElementById('warning');
     if (window.innerHeight > window.innerWidth) {
-        warning.classList.remove('hidden'); // Toon de waarschuwing in portretmodus
+        warning.classList.remove('hidden'); 
     } else {
-        warning.classList.add('hidden'); // Verberg de waarschuwing in landschapmodus
+        warning.classList.add('hidden'); 
     }
 }
 
-// Controleer de oriëntatie bij het laden van de pagina
+
 checkOrientation();
 
-// Voeg een event listener toe om de oriëntatie te controleren bij het draaien van het scherm
 window.addEventListener('resize', checkOrientation);
 
 let gebruikers_naam;
@@ -87,7 +86,7 @@ document.getElementById("bevestig").onclick=function(){
         document.getElementById("bericht").innerHTML =`Hallo papsie,<br><br>
         ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>
         We gaan het heel leuk hebben vandaag,<br><br>
-        Knufels,<>
+        Knufels,<br>
         
         Ruo Feng`;
     }
@@ -136,11 +135,11 @@ document.getElementById("bevestig").onclick=function(){
     else if (gebruikers_naam=="87EH"){
         document.getElementById("welkom").textContent=`Merry christmas, Hamid !!!`
         document.getElementById("bericht").innerHTML =`Hallo Hamid,<br><br>
-        ik wens je fijne feestdagen en een gelukkig nieuwjaar.<br>br>
+        ik wens je fijne feestdagen en een gelukkig nieuwjaar.<br><br>
         Ik hoop dat het goed met je gaat.<br><br>
         Ik vond het leuk om jou ook deze persoonlijkere kaart te sturen.<br>
-        Omdat jij m'n laatste buschafeur was op mijn oude school.<br>
-        Vriendelijke groeten,
+        Omdat jij m'n laatste buschafeur was op mijn oude school.<br><br>
+        Vriendelijke groeten,<br><br>
         
         Ruo Feng`;
     }
