@@ -1,3 +1,17 @@
+function checkOrientation() {
+    const warning = document.getElementById('warning');
+    if (window.innerHeight > window.innerWidth) {
+        warning.classList.remove('hidden'); // Toon de waarschuwing in portretmodus
+    } else {
+        warning.classList.add('hidden'); // Verberg de waarschuwing in landschapmodus
+    }
+}
+
+// Controleer de oriëntatie bij het laden van de pagina
+checkOrientation();
+
+// Voeg een event listener toe om de oriëntatie te controleren bij het draaien van het scherm
+window.addEventListener('resize', checkOrientation);
 
 let gebruikers_naam;
 document.getElementById("bevestig").onclick=function(){
