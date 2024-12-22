@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column; /* Verwijder de eerste flex-direction */
+    flex-direction: column; 
     align-items: center; 
     margin-top: 0px; 
     background: linear-gradient(#6bae83, #c63941);
@@ -34,25 +34,27 @@ h1 {
     text-align: center;
 }
 
-
 .container2 {
     display: flex;
-    flex-direction: row; /* Houd dit op row */
+    flex-direction: row; 
     align-items: center; 
-    justify-content: space-between; /* Dit plaatst de elementen aan de uiteinden */
-    width: 100%; /* Zorg ervoor dat de container de volledige breedte heeft */
+    justify-content: space-between; 
+    width: 100%; 
 }
 
 .rechthoek {
-    width: 250px; /* Breedte van de rechthoek */
-    height: 500px; /* Hoogte van de rechthoek */
-    background-color: #f0efea; /* Achtergrondkleur */
+    width: 250px; 
+    height: 500px; 
+    background-color: #f0efea; 
     margin-left: 40%;
 }
 
-@media (max-width: 300px) {
+/* Media query voor schermen kleiner dan 300px */
+@media (max-width: 00px) {
     .rechthoek {
         background-color: #0044ff; /* Achtergrondkleur voor kleinere schermen */
+        width: 90%; /* Maak de rechthoek smaller op kleine schermen */
+        margin-left: 5%; /* Center de rechthoek */
     }
 }
 
@@ -63,14 +65,13 @@ h1 {
     font-size: 14px; 
     line-height: 1.2;
     text-align: center; 
-    margin-right: 15%; /* Zorg ervoor dat er wat ruimte is aan de rechterkant */
+    margin-right: 15%; 
 }
 
-.kaart{
+.kaart {
     display: flex;
     flex-direction: row;
     line-height: 1.2;
-    margin-left:10px ;
-
+    margin-left: 10px;
     color: #d7b668;
 }
