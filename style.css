@@ -50,6 +50,12 @@ h1 {
     margin-left: 40%;
 }
 
+@media (max-width: 300px) {
+    .rechthoek {
+        background-color: #0044ff; /* Achtergrondkleur voor kleinere schermen */
+    }
+}
+
 .ascii-art {
     font-family: monospace; 
     white-space: pre; 
