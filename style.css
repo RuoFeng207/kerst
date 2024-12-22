@@ -1,8 +1,9 @@
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center; 
     margin-top: 0px; 
+    /* achtergrond */
     background: linear-gradient(#6bae83, #c63941);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,51 +12,20 @@ body {
 
 .container1 {
     display: flex;
-    flex-direction: row;
     align-items: center; 
     justify-content: center; 
 }
 
 label {
-    display: flex;
-    flex-direction: row;
     margin-right: 10px;
 }
 
 input {
-    display: flex;
-    flex-direction: row;
     margin-right: 10px; 
 }
 
 h1 {
-    display: flex;
-    flex-direction: row;
     text-align: center;
-}
-
-.container2 {
-    display: flex;
-    flex-direction: row; 
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%; 
-}
-
-.rechthoek {
-    width: 250px; 
-    height: 500px; 
-    background-color: #f0efea; 
-    margin-left: 40%;
-}
-
-/* Media query voor schermen kleiner dan 300px */
-@media (max-width: 00px) {
-    .rechthoek {
-        background-color: #0044ff; /* Achtergrondkleur voor kleinere schermen */
-        width: 90%; /* Maak de rechthoek smaller op kleine schermen */
-        margin-left: 5%; /* Center de rechthoek */
-    }
 }
 
 .ascii-art {
@@ -65,13 +35,15 @@ h1 {
     font-size: 14px; 
     line-height: 1.2;
     text-align: center; 
-    margin-right: 15%; 
+    margin-left: 45%; 
 }
 
-.kaart {
-    display: flex;
-    flex-direction: row;
-    line-height: 1.2;
-    margin-left: 10px;
+.rechthoek p  {
     color: #d7b668;
+    width: 250px; /* Breedte van de rechthoek */
+    height:500px; /* Hoogte van de rechthoek */
+    background-color: #f0efea; /* Achtergrondkleur */
+    position: absolute; /* Maak de positie absoluut */
+    left: 500px; /* Horizontale positie vanaf de linkerkant */
+    top: 200px; /* Verticale positie vanaf de bovenkant */
 }
