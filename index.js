@@ -124,7 +124,7 @@ document.getElementById("bevestig").onclick=function(){
     else if (gebruikers_naam=="TH57"){
         document.getElementById("welkom").textContent=`Merry christmas, Lilly !!!`
         document.getElementById("bericht").innerHTML =`Hey Lilly,<br><br>
-        ik wens je een fijne kerst en een gelukkig nieuwjaar.<br>br>
+        ik wens je een fijne kerst en een gelukkig nieuwjaar.<br><br>
         Ik weet dat ik je al een kaartje gestuurd heb maar ik vond het ook leuk je deze online kaart te geven.<br>
         Ik wens je moeder en broertjes ook een fijne kerst.<br><br>
         Groetjes,
@@ -152,6 +152,16 @@ document.getElementById("bevestig").onclick=function(){
         Ik dacht dat je het wel leuk zou vinden om een appart bericht te krijgen :)<br>
         En voor als je het weten wilt, deze website is geschreven in html, css en js.<br><br>
         Vriendelijke groet,<br><br>
+
+        Ruo Feng`;
+    }
+    
+    else if (gebruikers_naam=="V43C"){
+        document.getElementById("welkom").textContent=`Merry christmas!!!`
+        document.getElementById("bericht").innerHTML =`Hey daar,<br><br>
+        ik wens je fijne kestdagen en een gelukkig nieuwjaar.<br><br>
+        En hoop dat het nieuwe jaar leuke trainingen brengt voor ideeen .<br><br>
+        sportieve groete,<br><br>
 
         Ruo Feng`;
     }
